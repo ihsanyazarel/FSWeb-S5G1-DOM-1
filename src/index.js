@@ -89,6 +89,6 @@ cpntactPTags[1].textContent = siteContent.iletisim.telefon;
 cpntactPTags[2].textContent = siteContent.iletisim.email;
 
 // footer a
-const footerATag = document.getElementsByClassName("footer a");
+const footerATag = document.querySelector("footer a");
 footerATag.className = "bold";
 footerATag.textContent = siteContent.footer.copyright;
